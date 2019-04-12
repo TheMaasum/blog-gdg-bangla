@@ -48,6 +48,7 @@
     
 > migrate your application tables and seed data
 
+    $ docker-compose run --rm blog-gdg-bangla composer install
     $ docker-compose run --rm blog-gdg-bangla php artisan migrate:fresh --seed
 
 
