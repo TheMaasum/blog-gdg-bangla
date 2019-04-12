@@ -46,7 +46,7 @@
 
     $ docker-compose up -d
     
-> migrate your application tables and seed data
+> install libs, migrate application tables and seed data
 
     $ docker-compose run --rm blog-gdg-bangla composer install
     $ docker-compose run --rm blog-gdg-bangla php artisan migrate:fresh --seed
